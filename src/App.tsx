@@ -1,25 +1,20 @@
+// App.tsx
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import ScrapbookWindow from "./components/ScrapbookWindow";
+import AboutPage from "./pages/AboutPage";
+import HomePage from "./pages/HomePage"; // Import HomePage component
 
-function App() {
+const App = () => {
   return (
-    <div className="bg-[#fefaf6] min-h-screen">
+    <Router>
       <Navbar />
-      <Hero />
-      <section className="flex flex-wrap justify-center gap-8 p-8">
-        <ScrapbookWindow
-          title="💻 Dev Stack"
-          content="React, TypeScript, Tailwind"
-        />
-        <ScrapbookWindow title="📸 Favorite Camera" content="Fujifilm X100V" />
-        <ScrapbookWindow
-          title="🎨 Current Mood"
-          content="Vaporwave meets code"
-        />
-      </section>
-    </div>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
