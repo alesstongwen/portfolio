@@ -24,12 +24,12 @@ const HomePage: React.FC = () => {
         <h2 className="text-4xl font-bold text-center mb-8">Projects</h2>
 
         {/* Project Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1 px-10 justify-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-10 justify-items-center">
           <Link to="/projects/beep">
             <ScrapbookWindow
               title="Beep"
               content="React Native app for women's safety."
-              imgSrc="/assets/BeepThumbnail.png"
+              imgSrc="/assets/Beep-showcase.png"
             />
           </Link>
           <Link to="/projects/chezmari">
