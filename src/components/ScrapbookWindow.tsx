@@ -10,7 +10,7 @@ const ScrapbookWindow = ({ title, content, imgSrc }: ScrapbookWindowProps) => {
       <img
         src={imgSrc}
         alt={title}
-        className="object-cover w-full h-48 mb-4" // Image at the top
+        className="object-contain w-full h-48 mb-4"
       />
       <div className="px-4 pb-6 bg-white">
         <h3 className="text-lg font-semibold mb-2">{title}</h3>

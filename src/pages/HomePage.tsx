@@ -1,5 +1,6 @@
 import ScrapbookWindow from "../components/ScrapbookWindow";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const HomePage: React.FC = () => {
   return (
@@ -7,7 +8,9 @@ const HomePage: React.FC = () => {
       {/* Welcome Section */}
       <section className="text-center py-16 px-4">
         <h1 className="text-5xl font-bold">Aless Wei</h1>
-        <p className="text-xl mt-4">I’m Aless – Developer & Photographer</p>
+        <h2 className="text-xl mt-4">
+          Full stack web developer & Photographer
+        </h2>
         <div className="mt-8">
           {/* About Me Button */}
           <button className="bg-black text-white px-6 py-2 rounded-full">
@@ -22,16 +25,20 @@ const HomePage: React.FC = () => {
 
         {/* Project Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1 px-10 justify-items-center">
-          <ScrapbookWindow
-            title="Project 1"
-            content="Description of project 1."
-            imgSrc="/assets/project1.jpg"
-          />
-          <ScrapbookWindow
-            title="Project 2"
-            content="Description of project 2."
-            imgSrc="/assets/project2.jpg"
-          />
+          <Link to="/projects/beep">
+            <ScrapbookWindow
+              title="Beep"
+              content="React Native app for women's safety."
+              imgSrc="/assets/BeepThumbnail.png"
+            />
+          </Link>
+          <Link to="/projects/chezmari">
+            <ScrapbookWindow
+              title="Chez Mari"
+              content="Website rebuilt using Wordpress/PHP"
+              imgSrc="/assets/ChezMariThumbnail.png"
+            />
+          </Link>
           <ScrapbookWindow
             title="Project 3"
             content="Description of project 3."

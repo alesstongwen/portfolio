@@ -10,13 +10,16 @@ const Footer: React.FC = () => {
 
         {/* Social media links */}
         <div className="flex justify-center gap-6 mb-4">
-          <a href="https://twitter.com" className="hover:text-gray-400">
-            Twitter
-          </a>
-          <a href="https://github.com" className="hover:text-gray-400">
+          <a
+            href="https://github.com/alesstongwen"
+            className="hover:text-gray-400"
+          >
             GitHub
           </a>
-          <a href="https://linkedin.com" className="hover:text-gray-400">
+          <a
+            href="https://www.linkedin.com/in/aless-wei/"
+            className="hover:text-gray-400"
+          >
             LinkedIn
           </a>
         </div>
