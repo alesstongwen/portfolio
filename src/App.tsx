@@ -6,6 +6,7 @@ import AboutPage from "./pages/AboutPage";
 import HomePage from "./pages/HomePage"; // Import HomePage component
 import BeepPage from "./pages/projects/BeepPage"; // Import individual project pages
 import ChezMariPage from "./pages/projects/ChezMariPage";
+import PhotographyPage from "./pages/PhotographyPage";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/projects/beep" element={<BeepPage />} />
         <Route path="/projects/chezmari" element={<ChezMariPage />} />
+        <Route path="/projects/photography" element={<PhotographyPage />} />
       </Routes>
     </Router>
   );

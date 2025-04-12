@@ -1,6 +1,6 @@
 import React from "react";
 
-const BeepPage: React.FC = () => {
+const AIWorkoutGuidePage: React.FC = () => {
   return (
     <div className="pt-5 pb-10 px-6">
       <div className="px-6 py-10 max-w-6xl mx-auto text-black">
@@ -89,14 +89,10 @@ const BeepPage: React.FC = () => {
               safer in their everyday lives.
             </p>
           </div>
-          <div className="mt-12">
-            <h2 className="text-3xl font-bold">View More</h2>
-            <p className="mt-4">Beep Marketing: https://www.beep-safety.com/</p>
-          </div>
         </section>
       </div>
     </div>
   );
 };
 
-export default BeepPage;
+export default AIWorkoutGuidePage;

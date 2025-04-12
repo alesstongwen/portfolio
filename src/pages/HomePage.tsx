@@ -39,18 +39,27 @@ const HomePage: React.FC = () => {
               imgSrc="/assets/ChezMariThumbnail.png"
             />
           </Link>
-          <ScrapbookWindow
-            title="Project 3"
-            content="Description of project 3."
-            imgSrc="/assets/project3.jpg"
-          />
+          <Link to="/projects/ai-workout-guide">
+            <ScrapbookWindow
+              title="AI Workout Guide"
+              content="Description of project 3."
+              imgSrc="/assets/project3.jpg"
+            />
+          </Link>
+
           <ScrapbookWindow
             title="Project 4"
             content="Description of project 4."
             imgSrc="/assets/project4.jpg"
           />
+          <Link to="/photography">
+            <button className="bg-black text-white px-6 py-2 rounded-full">
+              View My Photography
+            </button>
+          </Link>
         </div>
       </div>
+
       {/* Footer */}
       <Footer />
     </div>
