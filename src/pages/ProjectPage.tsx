@@ -1,23 +1,9 @@
 import ScrapbookWindow from "../components/ScrapbookWindow";
 import { Link } from "react-router-dom";
 
-const HomePage: React.FC = () => {
+const ProjectPage: React.FC = () => {
   return (
     <div className="bg-gradient-to-r from-blue-200 via-blue-300 to-indigo-400 min-h-screen flex flex-col items-center py-16">
-      {/* Welcome Section */}
-      <section className="text-center py-16 px-4">
-        <h1 className="text-5xl font-bold text-white">Aless Wei</h1>
-        <h2 className="text-xl mt-4 text-white">
-          Full stack web developer & Photographer
-        </h2>
-        <div className="mt-8">
-          {/* About Me Button */}
-          <button className="bg-black text-white px-6 py-2 rounded-full">
-            <a href="/about">About Me</a>
-          </button>
-        </div>
-      </section>
-
       {/* Projects Section */}
       <div className="px-6 py-8">
         <h2 className="text-4xl font-bold text-center mb-8 text-white">
@@ -80,4 +66,4 @@ const HomePage: React.FC = () => {
   );
 };
 
-export default HomePage;
+export default ProjectPage;

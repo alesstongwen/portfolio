@@ -10,6 +10,7 @@ import PhotographyPage from "./pages/PhotographyPage";
 import BloomPage from "./pages/projects/BloomPage";
 import AIWorkoutGuidePage from "./pages/projects/AI-workout-GuidePage";
 import JobApplicationTrackerPage from "./pages/projects/job-application-trackerPage";
+import ProjectPage from "./pages/ProjectPage";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/projects/chezmari" element={<ChezMariPage />} />
         <Route path="/photography" element={<PhotographyPage />} />
         <Route path="/projects/bloom" element={<BloomPage />} />
+        <Route path="/projects" element={<ProjectPage />} />
         <Route
           path="/projects/job-application-tracker"
           element={<JobApplicationTrackerPage />}
