@@ -34,11 +34,13 @@ const ProjectPage: React.FC = () => {
             />
           </Link>
 
-          <ScrapbookWindow
-            title="Makeup Product Review App"
-            content="C# .NET web app"
-            imgSrc="/assets/project4.jpg"
-          />
+          <Link to="/projects/makeup-product-review">
+            <ScrapbookWindow
+              title="Makeup Product Review App"
+              content="C# ASP .NET web app"
+              imgSrc="/assets/MakeupReview.png"
+            />
+          </Link>
           <Link to="/projects/bloom">
             <ScrapbookWindow
               title="Bloom"
