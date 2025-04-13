@@ -67,7 +67,7 @@ const ChezMariPage: React.FC = () => {
               </li>
               <br />
               <p>
-                These features embody Beep’s core values of Assurance,
+                ✨These features embody Beep’s core values of Assurance,
                 Simplified Safety, and Trust & Transparency.
               </p>
             </ul>
@@ -98,10 +98,14 @@ const ChezMariPage: React.FC = () => {
           <div className="mt-12">
             <h2 className="text-3xl font-bold">Reflection</h2>
             <p className="mt-4">
-              Building Beep was an eye-opening experience, as it allowed me to
-              work with React Native and integrate multiple APIs. It was also
-              rewarding to create an app that can potentially help people feel
-              safer in their everyday lives.
+              Building Chez Mari was my first project working with Wordpress.
+              Though I have worked in Wordpress before for content uploading in
+              my previous job, I had never built a site from scratch. It was a
+              great learning experience that allowed me to explore the
+              platform’s capabilities and limitations from dev's perspectives. I
+              also learned how to effectively communicate with clients who may
+              not have a technical background, which is crucial in ensuring that
+              their vision is accurately translated into the final product.
             </p>
           </div>
         </section>

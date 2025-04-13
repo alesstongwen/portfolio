@@ -5,7 +5,7 @@ const AIWorkoutGuidePage: React.FC = () => {
     <div className="pt-5 pb-10 px-6">
       <div className="px-6 py-10 max-w-6xl mx-auto text-black">
         <section className="text-left py-16 px-4">
-          <h1 className="text-4xl font-extrabold">Beep</h1>
+          <h1 className="text-4xl font-extrabold">AI-Workout Guide</h1>
           <div className="flex justify-center mb-10">
             <img
               src="/assets/Beep-banner.png"
@@ -14,6 +14,10 @@ const AIWorkoutGuidePage: React.FC = () => {
             />
           </div>
 
+          <div className="mt-12">
+            <h2 className="text-3xl font-bold">Tech Stack</h2>
+            <p className="mt-4">TypeScript</p>
+          </div>
           {/* Project Overview */}
           <div className="mt-12">
             <h2 className="text-3xl font-bold">Project Overview</h2>
