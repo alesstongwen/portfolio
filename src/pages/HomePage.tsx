@@ -8,9 +8,20 @@ const HomePage: React.FC = () => {
       {/* Welcome Section */}
       <section className="text-center py-16 px-4">
         <h1 className="text-5xl font-bold text-white">Aless Wei</h1>
-        <h2 className="text-xl mt-4 text-white">
-          Full stack web developer & Photographer
-        </h2>
+        <TypeAnimation
+          sequence={[
+            "Full Stack Web Developer",
+            2000,
+            "Photographer",
+            2000,
+            "Creative Coder",
+            2000,
+          ]}
+          wrapper="h2"
+          speed={40}
+          repeat={Infinity}
+          className="text-xl mt-4 text-white"
+        />
         <div className="mt-8">
           {/* About Me Button */}
           <button className="bg-black text-white px-6 py-2 rounded-full">
