@@ -30,7 +30,7 @@ const JobApplicationTrackerPage: React.FC = () => {
           {/* YouTube Video Embed */}
           <div className="mt-12">
             <h2 className="text-3xl font-bold">
-              Watch the Job Application Track in Action
+              Watch the Job Application Tracker in Action
             </h2>
             <div className="mt-4 flex justify-left">
               <iframe

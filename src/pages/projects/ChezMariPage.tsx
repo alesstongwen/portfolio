@@ -44,32 +44,39 @@ const ChezMariPage: React.FC = () => {
               ease of use and accessibility.
             </p>
           </div>
+          <div className="mt-12">
+            <h2 className="text-3xl font-bold">
+              Watch the Chez Mari New Website Demo
+            </h2>
+            <div className="mt-4 flex justify-left">
+              <iframe
+                className="w-full max-w-[560px] h-[315px] rounded-xl"
+                src="https://www.youtube.com/embed/R0dx3OQ5uzM"
+                title="Chez Mari Demo"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
 
           {/* Key Features */}
           <div className="mt-12">
-            <h2 className="text-3xl font-bold">Key Features</h2>
+            <h2 className="text-3xl font-bold">Key Improvements</h2>
             <ul className="mt-4 list-disc pl-6">
               <li>
-                Real-Time Location Sharing: Allows users to share their live
-                location with trusted contacts.
+                Implemented Bookly plugin in WordPress that customers can easily
+                schedule multiple services online and allow the salon to manage
+                their staff, schedules, and services efficiently.
               </li>
               <li>
-                Emergency Alerts: Enables an audible alarm for immediate
-                assistance in emergency situations.
+                Implemented blog CMS via WordPress to allow the salon to share
+                products information, tips, and promotions with their customers.
               </li>
               <li>
-                Crime Data Mapping: Shows local crime data to help users plan
-                safer routes.
+                Redesign the websites for a modern and elegant look that
+                reflects the salon’s services and brand identity.
               </li>
-              <li>
-                Surroundings Recording: Captures audio, photos, or video for
-                added security and evidence if needed.
-              </li>
-              <br />
-              <p>
-                ✨These features embody Beep’s core values of Assurance,
-                Simplified Safety, and Trust & Transparency.
-              </p>
             </ul>
           </div>
 
