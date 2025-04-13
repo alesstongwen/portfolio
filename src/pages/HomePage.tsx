@@ -1,5 +1,6 @@
 import ScrapbookWindow from "../components/ScrapbookWindow";
 import { Link } from "react-router-dom";
+import { TypeAnimation } from "react-type-animation";
 
 const HomePage: React.FC = () => {
   return (
@@ -30,7 +31,7 @@ const HomePage: React.FC = () => {
             <ScrapbookWindow
               title="Beep"
               content="React Native mobile app for safety."
-              imgSrc="/assets/Beep-showcase.png"
+              imgSrc="/assets/Beep-projectcard.webp"
             />
           </Link>
           <Link to="/projects/chezmari">

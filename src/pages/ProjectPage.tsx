@@ -16,7 +16,7 @@ const ProjectPage: React.FC = () => {
             <ScrapbookWindow
               title="Beep"
               content="React Native mobile app for safety."
-              imgSrc="/assets/Beep-showcase.png"
+              imgSrc="/assets/Beep-projectcard.webp"
             />
           </Link>
           <Link to="/projects/chezmari">
@@ -26,14 +26,13 @@ const ProjectPage: React.FC = () => {
               imgSrc="/assets/ChezMariThumbnail.png"
             />
           </Link>
-          <Link to="/projects/ai-workout-guide">
+          <Link to="/projects/dev-portfolio-CMS">
             <ScrapbookWindow
-              title="AI Workout Guide"
-              content="Description of project 3."
-              imgSrc="/assets/project3.jpg"
+              title="dev-portfolio-CMS"
+              content="PHP Lavarel web app"
+              imgSrc="/assets/dev-cms.png"
             />
           </Link>
-
           <Link to="/projects/makeup-product-review">
             <ScrapbookWindow
               title="Makeup Product Review App"
