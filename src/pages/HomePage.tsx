@@ -1,5 +1,4 @@
 import ScrapbookWindow from "../components/ScrapbookWindow";
-import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
 const HomePage: React.FC = () => {
@@ -7,8 +6,8 @@ const HomePage: React.FC = () => {
     <div className="bg-gradient-to-r from-blue-200 via-blue-300 to-indigo-400 min-h-screen flex flex-col items-center py-16">
       {/* Welcome Section */}
       <section className="text-center py-16 px-4">
-        <h1 className="text-5xl font-bold">Aless Wei</h1>
-        <h2 className="text-xl mt-4">
+        <h1 className="text-5xl font-bold text-white">Aless Wei</h1>
+        <h2 className="text-xl mt-4 text-white">
           Full stack web developer & Photographer
         </h2>
         <div className="mt-8">
@@ -28,7 +27,7 @@ const HomePage: React.FC = () => {
           <Link to="/projects/beep">
             <ScrapbookWindow
               title="Beep"
-              content="React Native app for women's safety."
+              content="React Native mobile app for safety."
               imgSrc="/assets/Beep-showcase.png"
             />
           </Link>
@@ -48,15 +47,30 @@ const HomePage: React.FC = () => {
           </Link>
 
           <ScrapbookWindow
-            title="Project 4"
+            title="Makeup Product Review App"
+            content="C# .NET web app"
+            imgSrc="/assets/project4.jpg"
+          />
+          <Link to="/projects/bloom">
+            <ScrapbookWindow
+              title="Bloom"
+              content="Mobile App designed using Figma"
+              imgSrc="/assets/Bloom-projectcard.webp"
+            />
+          </Link>
+
+          <ScrapbookWindow
+            title="Project 5"
             content="Description of project 4."
             imgSrc="/assets/project4.jpg"
           />
-          <Link to="/photography">
-            <button className="bg-black text-white px-6 py-2 rounded-full">
-              View My Photography
-            </button>
-          </Link>
+          <div className="flex justify-center mt-8">
+            <Link to="/photography">
+              <button className="bg-black text-white px-6 py-2 rounded-full">
+                View My Photography
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
