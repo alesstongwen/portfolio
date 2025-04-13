@@ -5,7 +5,7 @@ const ChezMariPage: React.FC = () => {
     <div className="pt-5 pb-10 px-6">
       <div className="px-6 py-10 max-w-6xl mx-auto text-black">
         <section className="text-left py-16 px-4">
-          <h1 className="text-4xl font-extrabold">Chez Mari Hair Salon</h1>
+          <h1 className="text-4xl font-extrabold mb-8">Chez Mari Hair Salon</h1>
           <div className="flex justify-center mb-10">
             <img
               src="/assets/ChezMari-banner.png"
@@ -31,7 +31,7 @@ const ChezMariPage: React.FC = () => {
               was on creating a cohesive and responsive visual identity,
               improving the user experience, and integrating a booking system
               that would simplify appointment scheduling for both the salon and
-              its clients.{" "}
+              its clients.
             </p>
             <p className="mt-4">
               Our client was looking for a fresh and modern design that would
@@ -41,7 +41,13 @@ const ChezMariPage: React.FC = () => {
               understand their vision and goals, and we conducted user research
               to identify pain points in the current booking process. Based on
               our findings, we created a new site structure that prioritized
-              ease of use and accessibility.
+              ease of use and accessibility.The project was built by myself and
+              4 other amazing devs (Sol Kim, Christy Wan, Allison Dahan, and
+              Emmy Nguyen)
+            </p>
+            <p className="mt-4">
+              The project won 1st place in the final expo day from audience
+              voting.
             </p>
           </div>
           <div className="mt-12">

@@ -5,7 +5,7 @@ const BeepPage: React.FC = () => {
     <div className="pt-5 pb-10 px-6">
       <div className="px-6 py-10 max-w-6xl mx-auto text-black">
         <section className="text-left py-16 px-4">
-          <h1 className="text-4xl font-extrabold">Beep</h1>
+          <h1 className="text-4xl font-extrabold mb-8">Beep</h1>
           <div className="flex justify-center mb-10">
             <img
               src="/assets/Beep-banner.png"
@@ -71,27 +71,47 @@ const BeepPage: React.FC = () => {
 
           {/* Challenges */}
           <div className="mt-12">
-            <h2 className="text-3xl font-bold">Challenges</h2>
+            <h2 className="text-3xl font-bold">Challenges & Reflection</h2>
             <p className="mt-4">
-              One of the main challenges was integrating real-time location
-              tracking with Firebase. Ensuring that the app works reliably in
-              areas with poor GPS signals was another obstacle.
+              Working with students from a different program and campus was a
+              unique challenge. Since our entire team could only meet once a
+              week, coordinating across schedules and communication styles
+              required extra effort. Unlike our previous projects—where everyone
+              shared the same developer background—we had to collaborate with
+              teammates who had different skill sets and perspectives. This
+              experience felt very realistic to what it’s like in the industry,
+              where cross-functional teamwork is the norm. I learned how to
+              communicate more effectively with non-developers and align our
+              goals to move the project forward together.
             </p>
-          </div>
-
-          {/* Reflection */}
-          <div className="mt-12">
-            <h2 className="text-3xl font-bold">Reflection</h2>
             <p className="mt-4">
-              Building Beep was an eye-opening experience, as it allowed me to
-              work with React Native and integrate multiple APIs. It was also
-              rewarding to create an app that can potentially help people feel
-              safer in their everyday lives.
+              Working with React Native and building a mobile app for the first
+              time was both exciting and challenging. It was a completely new
+              experience that pushed me to think beyond the traditional web
+              development environment. I learned how to use React Native's
+              component-based structure to create a consistent mobile UI. One of
+              the most valuable parts of this project was learning how to
+              integrate Firebase for real-time location tracking, which allowed
+              users to share their live location with trusted contacts. I also
+              explored how to connect multiple APIs, such as for SMS and device
+              permissions, to implement features like text message alerts and
+              automated emergency notifications. This experience helped me gain
+              confidence in cross-platform development and strengthened my
+              ability to build responsive, real-world mobile applications.
             </p>
           </div>
           <div className="mt-12">
             <h2 className="text-3xl font-bold">View More</h2>
-            <p className="mt-4">Beep Marketing: https://www.beep-safety.com/</p>
+            <div className="mt-4">
+              <a
+                href="https://www.beep-safety.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-black text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-800 transition-colors"
+              >
+                Visit Beep Marketing Site
+              </a>
+            </div>
           </div>
         </section>
       </div>

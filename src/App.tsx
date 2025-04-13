@@ -8,7 +8,7 @@ import BeepPage from "./pages/projects/BeepPage"; // Import individual project p
 import ChezMariPage from "./pages/projects/ChezMariPage";
 import PhotographyPage from "./pages/PhotographyPage";
 import BloomPage from "./pages/projects/BloomPage";
-import AIWorkoutGuidePage from "./pages/projects/AI-workout-GuidePage";
+import DevPortfolioCMS from "./pages/projects/DevPortfolioCMSPage";
 import JobApplicationTrackerPage from "./pages/projects/job-application-trackerPage";
 import ProjectPage from "./pages/ProjectPage";
 import MakeupProductReviewPage from "./pages/projects/Makeup-Product-ReviewPage";
@@ -34,8 +34,8 @@ const App = () => {
           element={<JobApplicationTrackerPage />}
         />
         <Route
-          path="/projects/ai-workout-guide"
-          element={<AIWorkoutGuidePage />}
+          path="/projects/dev-portfolio-CMS"
+          element={<DevPortfolioCMS />}
         />
       </Routes>
     </Router>

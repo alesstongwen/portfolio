@@ -6,7 +6,9 @@ const MakeupProductReviewPage: React.FC = () => {
     <div className="pt-5 pb-10 px-6">
       <div className="px-6 py-10 max-w-6xl mx-auto text-black">
         <section className="text-left py-16 px-4">
-          <h1 className="text-4xl font-extrabold">Makeup Product Review App</h1>
+          <h1 className="text-4xl font-extrabold mb-8">
+            Makeup Product Review App
+          </h1>
           <div className="flex justify-center mb-10">
             <img
               src="/assets/MakeupReview.png"
@@ -26,7 +28,7 @@ const MakeupProductReviewPage: React.FC = () => {
               AJAX for a smoother user experience. Admin users can manage roles
               through a built-in dashboard. The application is deployed on
               Render and uses PlanetScale (MySQL-compatible) for cloud database
-              hosting.
+              hosting. This was a solo built project.
             </p>
           </div>
 
