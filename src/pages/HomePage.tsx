@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const HomePage: React.FC = () => {
   return (
-    <div className="bg-[#fefaf6] min-h-screen">
+    <div className="bg-gradient-to-r from-blue-200 via-blue-300 to-indigo-400 min-h-screen flex flex-col items-center py-16">
       {/* Welcome Section */}
       <section className="text-center py-16 px-4">
         <h1 className="text-5xl font-bold">Aless Wei</h1>
@@ -59,9 +59,6 @@ const HomePage: React.FC = () => {
           </Link>
         </div>
       </div>
-
-      {/* Footer */}
-      <Footer />
     </div>
   );
 };
