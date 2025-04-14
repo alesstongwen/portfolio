@@ -125,7 +125,7 @@ const HomePage: React.FC = () => {
       </div>
       <a
         href="/about"
-        className="bg-black text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-800 transition-colors"
+        className="bg-black text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-800 transition-colors mb-12"
       >
         About Me
       </a>

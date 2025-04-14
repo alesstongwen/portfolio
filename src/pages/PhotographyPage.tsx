@@ -8,51 +8,51 @@ const InstagramIcon = FaInstagram as unknown as React.FC<{
 const PhotographyPage: React.FC = () => {
   const images = [
     {
-      src: "/assets/swing.jpg",
+      src: "/assets/swing.JPG",
       alt: "swing",
     },
     {
-      src: "/assets/victoria.jpg",
+      src: "/assets/victoria.JPG",
       alt: "Christmas Eve @ Victoria",
     },
     {
-      src: "/assets/coffee.jpg",
+      src: "/assets/coffee.JPG",
       alt: "coffee",
     },
     {
-      src: "/assets/steam.jpg",
+      src: "/assets/steam.JPG",
       alt: "Vancouver Steam Clock",
     },
     {
-      src: "/assets/temple.jpg",
+      src: "/assets/temple.JPG",
       alt: "Longshan Temple in Taiwan",
     },
     {
-      src: "/assets/stop.jpg",
+      src: "/assets/stop.JPG",
       alt: "Street Traffic Light",
     },
     {
-      src: "/assets/drinks.jpg",
+      src: "/assets/drinks.JPG",
       alt: "drinks",
     },
     {
-      src: "/assets/lover.jpg",
+      src: "/assets/lover.JPG",
       alt: "lovers in the window",
     },
     {
-      src: "/assets/sushi.jpg",
+      src: "/assets/sushi.JPG",
       alt: "sushi",
     },
     {
-      src: "/assets/sunset.jpg",
+      src: "/assets/sunset.JPG",
       alt: "sunset",
     },
     {
-      src: "/assets/tulips.jpg",
+      src: "/assets/tulips.JPG",
       alt: "tulips",
     },
     {
-      src: "/assets/enno.jpg",
+      src: "/assets/enno.JPG",
       alt: "Enno Cheng's concert",
     },
     // You can keep adding more images here
