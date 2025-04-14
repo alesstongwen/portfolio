@@ -6,7 +6,10 @@ const ProjectPage: React.FC = () => {
     <div className="bg-gradient-to-r from-blue-200 via-blue-300 to-indigo-400 min-h-screen flex flex-col items-center py-16">
       {/* Projects Section */}
       <div className="px-6 py-8">
-        <h2 className="text-4xl font-bold text-center mb-8 text-white">
+        <h2
+          className="text-4xl font-bold text-center mb-8"
+          style={{ color: "#6F4634", fontFamily: "Tan Nimbus" }}
+        >
           Projects
         </h2>
 

@@ -1,38 +1,79 @@
 import ScrapbookWindow from "../components/ScrapbookWindow";
 import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const HomePage: React.FC = () => {
   return (
-    <div className="bg-gradient-to-r from-blue-200 via-blue-300 to-indigo-400 min-h-screen flex flex-col items-center py-16">
+    <div className="min-h-screen flex flex-col items-center">
       {/* Welcome Section */}
-      <section className="text-center py-16 px-4">
-        <h1 className="text-5xl font-bold text-white">Aless Wei</h1>
+      <section
+        className="w-full bg-no-repeat bg-center bg-contain h-[90vh] flex flex-col justify-center items-center text-center px-4 sm:px-8"
+        style={{
+          backgroundImage: "url('/assets/HomeBanner.svg')",
+          backgroundSize: "cover",
+          backgroundPosition: "top",
+        }}
+      >
+        <h1
+          className="text-4xl sm:text-5xl md:text-6xl font-extrabold"
+          style={{ color: "#6F4634", fontFamily: "Tan Nimbus" }}
+        >
+          Aless Wei
+        </h1>
+
         <TypeAnimation
           sequence={[
             "Full Stack Web Developer",
             2000,
             "Photographer",
             2000,
-            "Creative Coder",
+            "Coffee Enthusiast",
             2000,
           ]}
           wrapper="h2"
           speed={40}
           repeat={Infinity}
-          className="text-xl mt-4 text-white"
+          className="text-base sm:text-lg md:text-xl mt-4"
+          style={{ color: "#6F4634" }}
         />
-        <div className="mt-8">
-          {/* About Me Button */}
-          <button className="bg-black text-white px-6 py-2 rounded-full">
-            <a href="/about">About Me</a>
-          </button>
+
+        <div className="mt-6 flex flex-col sm:flex-row items-center gap-4">
+          <a
+            href="/about"
+            className="bg-black text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-800 transition-colors"
+          >
+            About Me
+          </a>
+
+          <div className="flex gap-4 mt-2 sm:mt-0">
+            <a
+              href="https://github.com/alesstongwen"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#6F4634] text-2xl hover:opacity-80"
+            >
+              {FaGithub({ className: "text-3xl" })}
+            </a>
+            <a
+              href="https://linkedin.com/in/aless-wei"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#6F4634] text-2xl hover:opacity-80"
+            >
+              {FaLinkedin({ className: "text-3xl" })}
+            </a>
+          </div>
         </div>
       </section>
 
       {/* Projects Section */}
       <div className="px-6 py-8">
-        <h2 className="text-4xl font-bold text-center mb-8 text-white">
+        <h2
+          data-aos="fade-up"
+          className="text-4xl font-bold text-center mb-8"
+          style={{ color: "#6F4634", fontFamily: "Tan Nimbus" }}
+        >
           Projects
         </h2>
 
