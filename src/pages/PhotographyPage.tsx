@@ -60,7 +60,10 @@ const PhotographyPage: React.FC = () => {
 
   return (
     <div className="bg-[#fefaf6] min-h-screen py-16 px-4 sm:px-8">
-      <h1 className="text-4xl font-bold text-center mb-12">
+      <h1
+        className="text-4xl font-bold text-center mb-12"
+        style={{ color: "#6F4634", fontFamily: "Tan Nimbus" }}
+      >
         Photography Gallery
       </h1>
 

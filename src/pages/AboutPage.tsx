@@ -2,11 +2,16 @@ import React from "react";
 
 const AboutPage: React.FC = () => {
   return (
-    <div className="bg-gradient-to-r from-blue-200 via-blue-300 to-indigo-400 min-h-screen flex flex-col items-center py-16">
+    <div className="min-h-screen flex flex-col items-center py-16">
       {/* Header Section */}
       <div className="text-left mb-12 px-4">
-        <h1 className="text-5xl font-extrabold text-white mb-4">About Me</h1>
-        <p className="text-lg text-white max-w-3xl mx-auto">
+        <h1
+          className="text-5xl font-extrabold mb-4"
+          style={{ color: "#6F4634", fontFamily: "Tan Nimbus" }}
+        >
+          About Me
+        </h1>
+        <p className="text-lg max-w-3xl mx-auto" style={{ color: "#6F4634" }}>
           Hi, I'm Aless, a highly motivated and versatile professional with a
           background in SEO and full-stack web development. After graduating
           from university with a BA in Communication and Digital Media minor
@@ -31,7 +36,7 @@ const AboutPage: React.FC = () => {
 
         {/* Right side - First paragraph */}
         <div className="md:w-1/2 text-left md:pl-6 flex flex-col">
-          <p className="text-lg text-white mb-6">
+          <p className="text-lg mb-6" style={{ color: "#6F4634" }}>
             With my background in SEO, I've developed a strong appreciation for
             creating exceptional user experiences. I've seen firsthand how
             design and usability can influence user behavior, and I'm passionate
@@ -45,7 +50,7 @@ const AboutPage: React.FC = () => {
 
       {/* Third Paragraph Aligned with First Paragraph */}
       <div className="max-w-3xl mx-auto px-4 mb-12">
-        <p className="text-lg text-white">
+        <p className="text-lg" style={{ color: "#6F4634" }}>
           I bring a unique blend of technical expertise, creativity, and empathy
           to every project I undertake. The fast-paced nature of the tech
           industry, with its endless opportunities for exploration and
@@ -58,30 +63,30 @@ const AboutPage: React.FC = () => {
 
       {/* Remaining Content */}
       <div className="max-w-3xl mx-auto px-4 mb-12">
-        <p className="text-lg text-white mb-6">
+        <p className="text-lg mb-6" style={{ color: "#6F4634" }}>
           Whether building robust back-end systems, optimizing databases, or
           crafting responsive front-end interfaces, I approach each challenge
           with enthusiasm, dedication, and a commitment to excellence.
         </p>
 
-        <p className="text-lg text-white">
+        <p className="text-lg" style={{ color: "#6F4634" }}>
           These are the technologies that I have worked on before:
         </p>
-        <ul className="list-disc pl-6 text-white mb-6">
+        <ul className="list-disc pl-6 mb-6" style={{ color: "#6F4634" }}>
           <li>Languages: TypeScript, JavaScript, C#, PHP, HTML, CSS</li>
           <li>Frameworks: React, React Native, Expo, .NET Framework</li>
           <li>Tools: GitHub, Visual Studio Code, MySQL, PostgreSQL, Figma</li>
           <li>SEO: SEMrush, Ahrefs, Google Analytics, Google Search Console</li>
         </ul>
 
-        <p className="text-lg text-white mb-6">
+        <p className="text-lg mb-6" style={{ color: "#6F4634" }}>
           Beyond the tech world, I enjoy creative and relaxing pursuits like
           photography and cafe hopping around the city. Capturing the world
           through my lens and sharing those moments with the community gives me
           fresh perspectives and inspiration to channel into my work.
         </p>
 
-        <p className="text-lg text-white mb-6">
+        <p className="text-lg mb-6" style={{ color: "#6F4634" }}>
           As someone who values continuous growth, I am always eager to learn,
           adapt, and refine my craft. I aim to contribute to meaningful projects
           that push the boundaries of what's possible while positively impacting

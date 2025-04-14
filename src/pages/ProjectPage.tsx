@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const ProjectPage: React.FC = () => {
   return (
-    <div className="bg-gradient-to-r from-blue-200 via-blue-300 to-indigo-400 min-h-screen flex flex-col items-center py-16">
+    <div className="min-h-screen flex flex-col items-center py-16">
       {/* Projects Section */}
       <div className="px-6 py-8">
         <h2

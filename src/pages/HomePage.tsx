@@ -39,13 +39,6 @@ const HomePage: React.FC = () => {
         />
 
         <div className="mt-6 flex flex-col sm:flex-row items-center gap-4">
-          <a
-            href="/about"
-            className="bg-black text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-800 transition-colors"
-          >
-            About Me
-          </a>
-
           <div className="flex gap-4 mt-2 sm:mt-0">
             <a
               href="https://github.com/alesstongwen"
@@ -130,6 +123,12 @@ const HomePage: React.FC = () => {
           </div> */}
         </div>
       </div>
+      <a
+        href="/about"
+        className="bg-black text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-800 transition-colors"
+      >
+        About Me
+      </a>
     </div>
   );
 };
