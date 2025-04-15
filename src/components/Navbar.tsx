@@ -15,6 +15,9 @@ const Navbar = () => {
         <li>
           <a href="/photography">Photography</a>
         </li>
+        <li>
+          <a href="/contact">Contact</a>
+        </li>
       </ul>
     </nav>
   );

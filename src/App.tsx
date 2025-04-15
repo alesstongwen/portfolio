@@ -3,8 +3,8 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import AboutPage from "./pages/AboutPage";
-import HomePage from "./pages/HomePage"; // Import HomePage component
-import BeepPage from "./pages/projects/BeepPage"; // Import individual project pages
+import HomePage from "./pages/HomePage";
+import BeepPage from "./pages/projects/BeepPage";
 import ChezMariPage from "./pages/projects/ChezMariPage";
 import PhotographyPage from "./pages/PhotographyPage";
 import BloomPage from "./pages/projects/BloomPage";
@@ -12,6 +12,7 @@ import DevPortfolioCMS from "./pages/projects/DevPortfolioCMSPage";
 import JobApplicationTrackerPage from "./pages/projects/job-application-trackerPage";
 import ProjectPage from "./pages/ProjectPage";
 import MakeupProductReviewPage from "./pages/projects/Makeup-Product-ReviewPage";
+import ContactPage from "./pages/ContactPage";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/photography" element={<PhotographyPage />} />
         <Route path="/projects/bloom" element={<BloomPage />} />
         <Route path="/projects" element={<ProjectPage />} />
+        <Route path="/contact" element={<ContactPage />} />
         <Route
           path="/projects/makeup-product-review"
           element={<MakeupProductReviewPage />}
