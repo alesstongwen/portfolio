@@ -2,9 +2,19 @@ import React from "react";
 
 const BeepPage: React.FC = () => {
   return (
-    <div className="pt-5 pb-10 px-6">
+    <div className="pt-0 sm:pt-5 pb-10 px-6">
       <div className="px-6 py-10 max-w-6xl mx-auto text-black">
-        <section className="text-left py-16 px-4">
+        <section className="text-left pt-4 sm:pt-10 pb-16 px-4">
+          {/* Breadcrumb */}
+          <div className="mb-4">
+            <a
+              href="/projects"
+              className="text-sm text-blue-600 hover:underline flex items-center"
+            >
+              ← Back to Projects
+            </a>
+          </div>
+
           <h1 className="text-4xl font-extrabold mb-8">Beep</h1>
           <div className="flex justify-center mb-10">
             <img

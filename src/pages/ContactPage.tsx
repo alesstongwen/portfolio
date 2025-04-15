@@ -2,14 +2,21 @@ import React from "react";
 
 const ContactPage: React.FC = () => {
   return (
-    <div className="min-h-screen bg-[#fefaf6] py-16 px-4 flex flex-col items-center text-center">
+    <div
+      className="min-h-screen bg-no-repeat bg-center bg-contain py-16 px-4 flex flex-col items-center text-center"
+      style={{
+        backgroundImage: "url('/assets/HomeBanner.svg')",
+        backgroundSize: "cover",
+        backgroundPosition: "top",
+      }}
+    >
       <h1
         className="text-4xl font-extrabold mb-6"
         style={{ color: "#6F4634", fontFamily: "Tan Nimbus" }}
       >
         Let’s Connect
       </h1>
-      <p className="text-lg text-gray-700 max-w-xl mb-10">
+      <p className="text-lg max-w-xl mb-10" style={{ color: "#3B2E27" }}>
         Whether you’re reaching out for collaboration, job opportunities, or
         just to say hi — I’d love to hear from you!
       </p>
@@ -51,7 +58,7 @@ const ContactPage: React.FC = () => {
         </p>
       </div>
 
-      {/* Optional CTA Button */}
+      {/* CTA Button */}
       <div className="mt-12">
         <a
           href="mailto:aless@example.com"
