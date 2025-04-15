@@ -55,7 +55,6 @@ const PhotographyPage: React.FC = () => {
       src: "/assets/enno.JPG",
       alt: "Enno Cheng's concert",
     },
-    // You can keep adding more images here
   ];
 
   return (
@@ -68,7 +67,7 @@ const PhotographyPage: React.FC = () => {
       </h1>
 
       {/* Fixed 3-column grid */}
-      <div className="grid grid-cols-3 gap-12 justify-items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 justify-items-center">
         {images.map((image, index) => (
           <div key={index} className="w-full flex justify-center">
             <img
@@ -79,7 +78,25 @@ const PhotographyPage: React.FC = () => {
           </div>
         ))}
       </div>
-      <div className="flex justify-center mt-16">
+      <div className="max-w-6xl mx-auto px-4 sm:px-8 mt-16">
+        <h2
+          className="text-3xl font-bold"
+          style={{ color: "#6F4634", fontFamily: "Tan Nimbus" }}
+        >
+          Why Photography?
+        </h2>
+        <p className="mt-4">
+          Photography is how I stay present. While coding challenges my logic
+          and structure, photography lets me slow down and notice the small
+          details—the way light hits a surface, or the candid expressions during
+          an event. I often bring my camera to school activities, and some of my
+          shots have even been featured on BCIT’s official social media.
+          Including this part of me in my portfolio isn’t just about
+          aesthetics—it reflects how I approach everything I do: with curiosity,
+          intentionality, and a deep appreciation for both people and moments.
+        </p>
+      </div>
+      <div className="mt-10 mb-10 flex justify-center">
         <a
           href="https://www.instagram.com/clicksbyaless/"
           target="_blank"
