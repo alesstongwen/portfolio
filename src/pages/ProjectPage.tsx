@@ -47,7 +47,7 @@ const ProjectPage: React.FC = () => {
             <ScrapbookWindow
               title="Bloom"
               content="Mobile App designed using Figma"
-              imgSrc="/assets/Bloom-projectcard.webp"
+              imgSrc="/assets/Bloom-projectcard.png"
             />
           </Link>
           <Link to="/projects/job-application-tracker">
