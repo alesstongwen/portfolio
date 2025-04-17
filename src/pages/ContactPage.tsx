@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const ContactPage: React.FC = () => {
   return (
@@ -26,44 +27,35 @@ const ContactPage: React.FC = () => {
         </p>
 
         {/* Contact Info */}
-        <div className="space-y-6 text-gray-800 mb-12">
+        <div className="mb-12 flex justify-center gap-6">
           <p>
-            <strong>Email:</strong>{" "}
-            <a
-              href="mailto:alesstongwen@gmail.com"
-              className="text-blue-600 underline"
-            >
-              alesstongwen@gmail.com
-            </a>
-          </p>
-          <p>
-            <strong>LinkedIn:</strong>{" "}
-            <a
-              href="https://linkedin.com/in/aless-wei"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 underline"
-            >
-              linkedin.com/in/aless-wei
-            </a>
-          </p>
-          <p>
-            <strong>GitHub:</strong>{" "}
-            <a
-              href="https://github.com/alesstongwen"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 underline"
-            >
-              github.com/alesstongwen
-            </a>
+            <div className="mt-6 flex flex-col sm:flex-row items-center gap-4">
+              <div className="flex gap-4 mt-2 sm:mt-0">
+                <a
+                  href="https://github.com/alesstongwen"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#6F4634] text-2xl hover:opacity-80"
+                >
+                  {FaGithub({ className: "text-3xl" })}
+                </a>
+                <a
+                  href="https://linkedin.com/in/aless-wei"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#6F4634] text-2xl hover:opacity-80"
+                >
+                  {FaLinkedin({ className: "text-3xl" })}
+                </a>
+              </div>
+            </div>
           </p>
         </div>
 
         {/* CTA Button */}
         <a
           href="mailto:alesstongwen@gmail.com"
-          className="inline-block bg-black text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-800 transition-colors"
+          className="inline-block bg-[#6F4634] text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-[#5a372a] transition-colors"
         >
           Send Me a Message
         </a>
