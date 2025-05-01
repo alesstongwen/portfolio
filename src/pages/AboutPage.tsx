@@ -74,7 +74,7 @@ const AboutPage: React.FC = () => {
         </p>
         <ul className="list-disc pl-6 mb-6" style={{ color: "#6F4634" }}>
           <li>Languages: TypeScript, JavaScript, C#, PHP, HTML, CSS</li>
-          <li>Frameworks: React, React Native, Expo, .NET Framework</li>
+          <li>Frameworks: React, React Native, Expo, .NET Framework, Laravel</li>
           <li>Tools: GitHub, Visual Studio Code, MySQL, PostgreSQL, Figma</li>
           <li>SEO: SEMrush, Ahrefs, Google Analytics, Google Search Console</li>
         </ul>
